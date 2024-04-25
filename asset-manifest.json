@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/furniture_technologies/static/css/main.7acaea2f.css",
-    "main.js": "/furniture_technologies/static/js/main.07d3183d.js",
+    "main.js": "/furniture_technologies/static/js/main.79252ecc.js",
     "index.html": "/furniture_technologies/index.html",
-    "main.7acaea2f.css.map": "/furniture_technologies/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/furniture_technologies/static/js/main.07d3183d.js.map"
+    "main.79252ecc.js.map": "/furniture_technologies/static/js/main.79252ecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.79252ecc.js"
   ]
 }
