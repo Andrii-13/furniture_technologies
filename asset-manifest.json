@@ -1,10 +1,44 @@
 {
   "files": {
-    "main.js": "/furniture_technologies/static/js/main.79252ecc.js",
+    "main.css": "/furniture_technologies/static/css/main.cd2e038f.css",
+    "main.js": "/furniture_technologies/static/js/main.28b03c5c.js",
+    "reactPlayerYouTube.js": "/furniture_technologies/static/js/reactPlayerYouTube.8dacb3ce.chunk.js",
+    "reactPlayerSoundCloud.js": "/furniture_technologies/static/js/reactPlayerSoundCloud.bff5c2a6.chunk.js",
+    "reactPlayerVimeo.js": "/furniture_technologies/static/js/reactPlayerVimeo.2be791ea.chunk.js",
+    "reactPlayerMux.js": "/furniture_technologies/static/js/reactPlayerMux.d298ef88.chunk.js",
+    "reactPlayerFacebook.js": "/furniture_technologies/static/js/reactPlayerFacebook.3f8a460e.chunk.js",
+    "reactPlayerStreamable.js": "/furniture_technologies/static/js/reactPlayerStreamable.1799a520.chunk.js",
+    "reactPlayerWistia.js": "/furniture_technologies/static/js/reactPlayerWistia.832f5f27.chunk.js",
+    "reactPlayerTwitch.js": "/furniture_technologies/static/js/reactPlayerTwitch.37d0892d.chunk.js",
+    "reactPlayerDailyMotion.js": "/furniture_technologies/static/js/reactPlayerDailyMotion.066631b8.chunk.js",
+    "reactPlayerMixcloud.js": "/furniture_technologies/static/js/reactPlayerMixcloud.188bd44a.chunk.js",
+    "reactPlayerVidyard.js": "/furniture_technologies/static/js/reactPlayerVidyard.79ae1e80.chunk.js",
+    "reactPlayerKaltura.js": "/furniture_technologies/static/js/reactPlayerKaltura.622740b0.chunk.js",
+    "reactPlayerFilePlayer.js": "/furniture_technologies/static/js/reactPlayerFilePlayer.c1e0f343.chunk.js",
+    "reactPlayerPreview.js": "/furniture_technologies/static/js/reactPlayerPreview.95355fcd.chunk.js",
+    "static/media/kyt.jpg": "/furniture_technologies/static/media/kyt.4120155aa3b49824a8d3.jpg",
+    "static/media/Map.png": "/furniture_technologies/static/media/Map.c3710a32938abd6da8fe.png",
+    "static/media/logo.webp": "/furniture_technologies/static/media/logo.d433f679e6cc57c5973d.webp",
     "index.html": "/furniture_technologies/index.html",
-    "main.79252ecc.js.map": "/furniture_technologies/static/js/main.79252ecc.js.map"
+    "main.cd2e038f.css.map": "/furniture_technologies/static/css/main.cd2e038f.css.map",
+    "main.28b03c5c.js.map": "/furniture_technologies/static/js/main.28b03c5c.js.map",
+    "reactPlayerYouTube.8dacb3ce.chunk.js.map": "/furniture_technologies/static/js/reactPlayerYouTube.8dacb3ce.chunk.js.map",
+    "reactPlayerSoundCloud.bff5c2a6.chunk.js.map": "/furniture_technologies/static/js/reactPlayerSoundCloud.bff5c2a6.chunk.js.map",
+    "reactPlayerVimeo.2be791ea.chunk.js.map": "/furniture_technologies/static/js/reactPlayerVimeo.2be791ea.chunk.js.map",
+    "reactPlayerMux.d298ef88.chunk.js.map": "/furniture_technologies/static/js/reactPlayerMux.d298ef88.chunk.js.map",
+    "reactPlayerFacebook.3f8a460e.chunk.js.map": "/furniture_technologies/static/js/reactPlayerFacebook.3f8a460e.chunk.js.map",
+    "reactPlayerStreamable.1799a520.chunk.js.map": "/furniture_technologies/static/js/reactPlayerStreamable.1799a520.chunk.js.map",
+    "reactPlayerWistia.832f5f27.chunk.js.map": "/furniture_technologies/static/js/reactPlayerWistia.832f5f27.chunk.js.map",
+    "reactPlayerTwitch.37d0892d.chunk.js.map": "/furniture_technologies/static/js/reactPlayerTwitch.37d0892d.chunk.js.map",
+    "reactPlayerDailyMotion.066631b8.chunk.js.map": "/furniture_technologies/static/js/reactPlayerDailyMotion.066631b8.chunk.js.map",
+    "reactPlayerMixcloud.188bd44a.chunk.js.map": "/furniture_technologies/static/js/reactPlayerMixcloud.188bd44a.chunk.js.map",
+    "reactPlayerVidyard.79ae1e80.chunk.js.map": "/furniture_technologies/static/js/reactPlayerVidyard.79ae1e80.chunk.js.map",
+    "reactPlayerKaltura.622740b0.chunk.js.map": "/furniture_technologies/static/js/reactPlayerKaltura.622740b0.chunk.js.map",
+    "reactPlayerFilePlayer.c1e0f343.chunk.js.map": "/furniture_technologies/static/js/reactPlayerFilePlayer.c1e0f343.chunk.js.map",
+    "reactPlayerPreview.95355fcd.chunk.js.map": "/furniture_technologies/static/js/reactPlayerPreview.95355fcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.79252ecc.js"
+    "static/css/main.cd2e038f.css",
+    "static/js/main.28b03c5c.js"
   ]
 }
