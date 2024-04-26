@@ -1,5 +1,5 @@
 import { Catalog, Home, Services } from 'pages';
-import { Header } from 'components';
+import { Footer, Header } from 'components';
 import { Route, Routes } from 'react-router-dom';
 
 export const App = () => {
@@ -12,6 +12,7 @@ export const App = () => {
         <Route path="/servises" element={<Services />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "00001",
+    "name": "Профіль",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "https://kor.ill.in.ua/m/610x385/2824384.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00002",
+    "name": "Профіль",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "./images/product/00001.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00003",
+    "name": "Профіль",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "./images/product/00001.jpg",
+    "works": "internal"
+  },
+  {
+    "id": "00004",
+    "name": "Профіль",
+    "material": "алюміній",
+    "thickness": "0,5мм",
+    "length": "2200мм",
+    "width": "3мм",
+    "img": "./images/product/00001.jpg",
+    "works": "internal"
+  }
+]

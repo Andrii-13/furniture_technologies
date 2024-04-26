@@ -1,5 +1,6 @@
+import { Container } from 'components/App/App.styled';
 import React from 'react';
 
 export const Services = () => {
-  return <div>Services</div>;
+  return <Container>Services</Container>;
 };
