@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/furniture_technologies/static/css/main.cd2e038f.css",
-    "main.js": "/furniture_technologies/static/js/main.0b3d6536.js",
+    "main.js": "/furniture_technologies/static/js/main.d396cddc.js",
     "reactPlayerYouTube.js": "/furniture_technologies/static/js/reactPlayerYouTube.3a41c960.chunk.js",
     "reactPlayerSoundCloud.js": "/furniture_technologies/static/js/reactPlayerSoundCloud.f2a03076.chunk.js",
     "reactPlayerVimeo.js": "/furniture_technologies/static/js/reactPlayerVimeo.8a7482f2.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/logo.webp": "/furniture_technologies/static/media/logo.d433f679e6cc57c5973d.webp",
     "index.html": "/furniture_technologies/index.html",
     "main.cd2e038f.css.map": "/furniture_technologies/static/css/main.cd2e038f.css.map",
-    "main.0b3d6536.js.map": "/furniture_technologies/static/js/main.0b3d6536.js.map",
+    "main.d396cddc.js.map": "/furniture_technologies/static/js/main.d396cddc.js.map",
     "reactPlayerYouTube.3a41c960.chunk.js.map": "/furniture_technologies/static/js/reactPlayerYouTube.3a41c960.chunk.js.map",
     "reactPlayerSoundCloud.f2a03076.chunk.js.map": "/furniture_technologies/static/js/reactPlayerSoundCloud.f2a03076.chunk.js.map",
     "reactPlayerVimeo.8a7482f2.chunk.js.map": "/furniture_technologies/static/js/reactPlayerVimeo.8a7482f2.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.0b3d6536.js"
+    "static/js/main.d396cddc.js"
   ]
 }
