@@ -19,7 +19,8 @@ h4,
 p {
   margin: 0;
 }
-.list {
+
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -27,6 +28,7 @@ p {
 img {
   display: block;
 }
+
 
 /* ================ components ================ */
 

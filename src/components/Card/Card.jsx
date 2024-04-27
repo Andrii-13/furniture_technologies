@@ -1,16 +1,18 @@
 import React from 'react';
+import { CardStyle } from './Card.styled';
 
 export const Card = ({ card }) => {
-  const { name } = card;
+  const { name, img, id, material, thickness, length, width, works } = card;
 
   return (
-    <li>
-      <img
-        src="../../data/images/product/00001.jpg"
-        alt={name}
-        width="264"
-        height="260"
-      />
-    </li>
+    <CardStyle>
+      <img src={img} alt={name} width="264" height="260" />
+      <p>Артикул: {id}</p>
+      <p>Матеріал: {material}</p>
+      <p>Товщина: {thickness}</p>
+      <p>Довжина: {length}</p>
+      <p>Ширина: {width}</p>
+      <p>Види робіт: {works}</p>
+    </CardStyle>
   );
 };
