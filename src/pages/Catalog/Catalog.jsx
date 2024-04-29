@@ -1,14 +1,14 @@
 import { Container } from 'components/App/App.styled';
-import { Title } from 'components/App/Title/Title';
 import { Cards } from 'components/Cards/Cards';
 import React, { useEffect, useState } from 'react';
-import allData from '../../data/data.json';
+import productsData from '../../data/productsData.json';
 import { CatalogForm } from 'components/CatalogForm/CatalogForm';
+import { Title } from 'components/Title/Title';
 
 export const Catalog = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    setData(allData);
+    setData(productsData);
   }, []);
 
   return (

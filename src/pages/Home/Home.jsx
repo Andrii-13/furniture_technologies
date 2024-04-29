@@ -3,7 +3,7 @@ import React from 'react';
 import { BackgroundImg, HomeWrap, VideoWrap } from './Home.styled';
 import fon from '../../data/images/kyt.jpg';
 import ReactPlayer from 'react-player';
-import { Title } from 'components/App/Title/Title';
+import { Title } from 'components/Title/Title';
 
 export const Home = () => {
   return (
@@ -12,15 +12,16 @@ export const Home = () => {
         <BackgroundImg>
           <img src={fon} alt="construction corner" />
         </BackgroundImg>
+
+        <Title>ТОВ «ТД «ПРОФІЛЬНІ ТЕХНОЛОГІЇ»» ТМ «Штукатур»</Title>
         <div
           style={{
             display: 'flex',
             flexDirection: 'column',
             gap: '20px',
-            margin: '20px 0',
+            margin: '0 0 20px 0',
           }}
         >
-          <Title>ТОВ «ТД «ПРОФІЛЬНІ ТЕХНОЛОГІЇ»» ТМ «Штукатур»</Title>
           <h2>
             Компанія ТОВ "ТД "Профільні технології"- лідер з виробництва якісних
             профілів, створених для професіоналів.
@@ -69,14 +70,14 @@ export const Home = () => {
             споживачів.
           </p>
 
-          <VideoWrap className="player">
+          {/*           <VideoWrap className="player">
             <ReactPlayer
               className="react-player"
               url="https://www.youtube.com/watch?v=oUFJJNQGwhk"
               width="100%"
               height="100%"
             />
-          </VideoWrap>
+          </VideoWrap> */}
         </div>
       </Container>
     </HomeWrap>
