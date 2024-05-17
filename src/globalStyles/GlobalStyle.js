@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
 
 /* ----------- basic properties ---------------- */
 
+
    body {
         font-family: "Bungee Shade", sans-serif;
         font-size: 14px;

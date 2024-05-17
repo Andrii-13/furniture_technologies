@@ -7,6 +7,12 @@ import { Title } from 'components/Title/Title';
 
 export const Catalog = () => {
   const [data, setData] = useState([]);
+  const [work, setWork] = useState(null);
+
+  const handleChangeWorks = e => {
+    setWork(e.value);
+  };
+
   useEffect(() => {
     setData(productsData);
   }, []);
@@ -14,8 +20,8 @@ export const Catalog = () => {
   return (
     <Container>
       <Title>Наша продукція</Title>
-      <CatalogForm />
-      {data.length > 0 && <Cards data={data} />}
+      <CatalogForm handleChangeWorks={handleChangeWorks} />
+      {data.length > 0 && <Cards data={data} selectedWork={work} />}
     </Container>
   );
 };
