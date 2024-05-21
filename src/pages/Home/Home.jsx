@@ -4,11 +4,13 @@ import { BackgroundImg, HomeWrap, VideoWrap } from './Home.styled';
 import fon from '../../data/images/kyt.jpg';
 import ReactPlayer from 'react-player';
 import { Title } from 'components/Title/Title';
+import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 
 export const Home = () => {
   return (
     <HomeWrap>
       <Container>
+        <BtnUpDown />
         <BackgroundImg>
           <img src={fon} alt="construction corner" />
         </BackgroundImg>

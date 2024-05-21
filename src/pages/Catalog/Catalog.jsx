@@ -1,27 +1,49 @@
 import { Container } from 'components/App/App.styled';
 import { Cards } from 'components/Cards/Cards';
 import React, { useEffect, useState } from 'react';
-import productsData from '../../data/productsData.json';
 import { CatalogForm } from 'components/CatalogForm/CatalogForm';
 import { Title } from 'components/Title/Title';
+import { useSearchParams } from 'react-router-dom';
+import { selectedWork } from 'helpers/selectedWork';
+import { selectedProduct } from 'helpers/selectedProduct';
+import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 
 export const Catalog = () => {
   const [data, setData] = useState([]);
-  const [work, setWork] = useState(null);
+  const [params, setParams] = useSearchParams();
+
+  const work = params.get('work') ?? 'all';
+  const product = params.get('product') ?? 'all';
 
   const handleChangeWorks = e => {
-    setWork(e.value);
+    params.set('work', e.value);
+    setParams(params);
+  };
+
+  const handleChangeProduct = e => {
+    params.set('product', e.value);
+    setParams(params);
   };
 
   useEffect(() => {
-    setData(productsData);
-  }, []);
+    const typeWork = selectedWork(work);
+    const typeProduct = selectedProduct(typeWork, product);
+    setData(typeProduct);
+  }, [work, product]);
 
   return (
     <Container>
       <Title>Наша продукція</Title>
-      <CatalogForm handleChangeWorks={handleChangeWorks} />
-      {data.length > 0 && <Cards data={data} selectedWork={work} />}
+      <CatalogForm
+        handleChangeWorks={handleChangeWorks}
+        handleChangeProduct={handleChangeProduct}
+      />
+      <BtnUpDown />
+      {(data.length > 0 && <Cards data={data} />) || (
+        <Title color="green" marginTop="150px">
+          Немає даних за вашим запитом!!!
+        </Title>
+      )}
     </Container>
   );
 };

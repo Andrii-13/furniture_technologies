@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeWrap = styled.div`
+export const HomeWrap = styled.section`
   position: relative;
 `;
 

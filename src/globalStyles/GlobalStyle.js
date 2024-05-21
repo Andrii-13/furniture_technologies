@@ -7,10 +7,13 @@ export const GlobalStyle = createGlobalStyle`
 
 
    body {
-        font-family: "Bungee Shade", sans-serif;
+        font-family: "Poppins", sans-serif; //set main font from data/fonts and add link in main index.js
         font-size: 14px;
         line-height: 1.28;
         font-weight: 400;
+
+
+
          }
 
 /* ----------- basic properties ---------------- */
@@ -40,7 +43,11 @@ img {
   display: block;
 }
 
-
+.root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /* ================ components ================ */
 
 `;

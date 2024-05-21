@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Select from 'react-select';
 import { CatalogFormStyle } from './CatalogForm.styled';
-import { useSearchParams } from 'react-router-dom';
 
 const optionsWorks = [
   { value: 'all', label: 'всі' },
@@ -16,17 +15,7 @@ const optionsProduct = [
   { value: 'lighthouse', label: 'маяк' },
 ];
 
-export const CatalogForm = () => {
-  const [work, setWork] = useSearchParams();
-
-  const handleChangeWorks = e => {
-    setWork(e.value);
-  };
-  useEffect(() => {
-    const filmQuery = work.get('film');
-    console.log(filmQuery);
-  }, [work]);
-
+export const CatalogForm = ({ handleChangeWorks, handleChangeProduct }) => {
   return (
     <CatalogFormStyle>
       <Select
@@ -34,7 +23,11 @@ export const CatalogForm = () => {
         placeholder="Види робіт"
         onChange={handleChangeWorks}
       />
-      <Select options={optionsProduct} placeholder="Види продукту" />
+      <Select
+        options={optionsProduct}
+        placeholder="Види продукту"
+        onChange={handleChangeProduct}
+      />
     </CatalogFormStyle>
   );
 };

@@ -4,7 +4,7 @@ import { App } from 'components';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { MainTheme } from 'globalStyles';
-//import 'data/fonts/index';
+import 'data/fonts/index';
 import { GlobalStyle } from 'globalStyles/GlobalStyle';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
