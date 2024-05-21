@@ -1,8 +1,12 @@
 import { Container } from 'components/App/App.styled';
 import React from 'react';
-import { BackgroundImg, HomeWrap, VideoWrap } from './Home.styled';
+import {
+  BackgroundImg,
+  HomeWrap,
+  //VideoWrap
+} from './Home.styled';
 import fon from '../../data/images/kyt.jpg';
-import ReactPlayer from 'react-player';
+//import ReactPlayer from 'react-player';
 import { Title } from 'components/Title/Title';
 import { BtnUpDown } from 'components/BtnUpDown/BtnUpDown';
 
