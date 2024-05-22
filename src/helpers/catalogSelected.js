@@ -6,3 +6,13 @@ export const selectedWork = work => {
   }
   return productsData.filter(product => product.works === work);
 };
+
+export const selectedProduct = (data, product) => {
+  if (product === 'all') {
+    return data;
+  }
+
+  return data.filter(productItem => productItem.name === product);
+};
+
+
