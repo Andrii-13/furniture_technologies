@@ -1,17 +1,18 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import {
   CenteredInputLabel,
   StyledFormControl,
   StyledSelect,
 } from './SelectMui.styled';
+import { useState } from 'react';
 
-export default function BasicSelect() {
-  const [work, setWork] = React.useState('');
+export default function MuiSelect({ handleChangeWorksMui }) {
+  const [work, setWork] = useState('');
 
   const handleChange = event => {
+    handleChangeWorksMui(event);
     setWork(event.target.value);
   };
 

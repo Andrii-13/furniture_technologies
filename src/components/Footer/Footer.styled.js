@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FooterWrap = styled.footer`
   background-color: ${p => p.theme.colors.gray};
+  box-shadow: ${p => p.theme.boxShadow.main};
 `;
 
 export const FooterLocation = styled.div`

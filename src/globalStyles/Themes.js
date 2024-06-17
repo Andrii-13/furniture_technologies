@@ -22,4 +22,8 @@ export const MainTheme = {
     tabletBreakPoint: '768px',
     desktopBreakPoint: '1200px',
   },
+
+  boxShadow: {
+    main: '0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)',
+  },
 };

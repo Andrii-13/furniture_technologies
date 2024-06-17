@@ -14,8 +14,8 @@ export const ManagerList = () => {
     <>
       {contacts.length > 0 && (
         <ManagersListStyle>
-          {contacts.map(contact => (
-            <ManagerItem key={contact.id} contact={contact} />
+          {contacts.map((contact, index) => (
+            <ManagerItem key={contact.id} contact={contact} index={index} />
           ))}
         </ManagersListStyle>
       )}

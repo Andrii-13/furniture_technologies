@@ -1,9 +1,15 @@
 import styled from 'styled-components';
 
 export const ManagerItemStyle = styled.li`
+  position: relative;
+
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  padding: 10px;
+  border: 1px solid green;
+  width: fit-content;
 
   div {
     display: flex;

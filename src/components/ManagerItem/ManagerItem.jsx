@@ -1,11 +1,11 @@
 import React from 'react';
 import { ManagerItemName, ManagerItemStyle } from './ManagerItem.styled';
 
-export const ManagerItem = ({ contact }) => {
+export const ManagerItem = ({ contact, index }) => {
   const { firstName, lastName, surname, position, phone, region } = contact;
 
   return (
-    <ManagerItemStyle>
+    <ManagerItemStyle className={`card card-${index}`}>
       <div>
         <ManagerItemName>
           <span>{firstName}</span>
